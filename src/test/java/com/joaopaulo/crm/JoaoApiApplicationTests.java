@@ -1,0 +1,13 @@
+package com.joaopaulo.crm;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class JoaoApiApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
