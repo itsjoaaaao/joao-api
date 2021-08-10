@@ -17,6 +17,10 @@ public class Cliente {
 	
 	@Column(nullable = false)
 	private String nome;
+	private String sobrenome;
+	private String cpf;
+	private String rg;
+	
 
 	public Long getId() {
 		return id;
@@ -32,6 +36,30 @@ public class Cliente {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getRg() {
+		return rg;
+	}
+
+	public void setRg(String rg) {
+		this.rg = rg;
 	}
 	
 	
